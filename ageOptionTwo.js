@@ -4,6 +4,7 @@ var calcAge = function (birthYear) {
   var year = thisYear - birthYear;
   var year2 = thisYear - birthYear -1;
   console.log(year + ' is var year line 5 \n');
+  // this section is for later
   // get month:
   /*var x = new Date();
   var z = x.getMonth();
@@ -21,7 +22,7 @@ console.log(dateDay + ' is a fictional day of the month when born \n');
     console.log(year2 + ' bday is later this year \n');
   } else (thisDay >= dateDay && thisMonth >= birthMonth); {
     console.log(year + ' is your age');
-  } // kijk hier, klopt de vergelijking wel?
+  } // note to self! klopt de vergelijking wel?
 
   
 };
@@ -30,3 +31,4 @@ console.log(calcAge(1990));
 
 // er vindt geen if / else plaats, ze worden allebei weergegeven in de console...
 // en er is ook nog de andere code in het andere .js bestand :)
+
