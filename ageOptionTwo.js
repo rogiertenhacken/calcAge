@@ -29,3 +29,4 @@ console.log(dateDay + ' is a fictional day of the month when born \n');
 console.log(calcAge(1990));
 
 // er vindt geen if / else plaats, ze worden allebei weergegeven in de console...
+// en er is ook nog de andere code in het andere .js bestand :)
