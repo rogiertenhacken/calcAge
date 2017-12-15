@@ -16,5 +16,4 @@ console.log(date3 + ' date3');
 var ts = new Date(date3);
 console.log(ts.toDateString() + ' ts'); //zet date3 om naar human-readable date maar var date3 moet het tijdsverschil of de verstreken tijd berekenen tussen de twee data
 
-
-
+// en er is ook nog de andere code in het andere .js bestand :)
