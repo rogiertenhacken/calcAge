@@ -23,7 +23,6 @@ input[type="text"]:focus {
   outline: 0 none;
 }
 
-
 h1 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 36px;
@@ -31,10 +30,21 @@ h1 {
   font-variant: small-caps;
   margin-bottom: 15px;
 }
+
+#output {
+  margin-top: 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 21px;
+  font-variant: small-caps;
+  background-color: #ffe900;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 10px;
+}
 }
 
-/* @media */
 
+/* @media */
 
 @media screen and (max-width: 620px) {
 h1 {
