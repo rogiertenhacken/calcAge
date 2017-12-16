@@ -1,3 +1,5 @@
+// het werkt!! (alleen nog een alert vervanging zoeken, dat werkt niet op een mobile-device)
+
 var calcAge = function () {
 // get current year
   var today = new Date();
