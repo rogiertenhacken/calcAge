@@ -1,4 +1,7 @@
-// het werkt!! 
+// het werkt!! (alleen op mobile devices is het erg klein...) 
+
+/* extra still to do : als je niks invult ben je 2017 jaar op aarde, automatisch naar volgende veld, 
+jaren en aantal maanden weergeven */
 
 var calcAge = function () {
 // get current year
