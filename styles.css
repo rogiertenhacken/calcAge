@@ -2,6 +2,7 @@
 
 body {
   margin-top: 65px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .btn-primary-spacing {
@@ -21,16 +22,16 @@ input[type="text"]:focus {
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 4px rgba(216,216,216,1);
   outline: 0 none;
 }
-}
+
 
 h1 {
-  font-family: 'Nobile', sans-serif, 'Oxygen', sans-serif;
-  font-size: 24px;
-  font-weight: 800;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
   font-variant: small-caps;
   margin-bottom: 15px;
 }
-
+}
 
 /* @media */
 
