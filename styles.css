@@ -1,0 +1,50 @@
+/* global */
+
+body {
+  margin-top: 65px;
+}
+
+.btn-primary-spacing {
+ margin-top: 15px;
+ background-color: black;
+ width: 100px !important;
+}
+
+.input-group-addon {
+  background-color: rgba(208,208,208,1);
+  color: rgba(136,136,136,1);
+}
+
+textarea:focus,
+input[type="text"]:focus {
+  border-color: rgba(216,216,216,0.6);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.01) inset, 0 0 4px rgba(216,216,216,1);
+  outline: 0 none;
+}
+}
+
+h1 {
+  font-family: 'Nobile', sans-serif, 'Oxygen', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  font-variant: small-caps;
+  margin-bottom: 15px;
+}
+
+
+/* @media */
+
+
+@media screen and (max-width: 620px) {
+h1 {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.btn-primary-spacing {
+  margin-top:18px;
+}
+body {
+  margin-top: 45px;
+}
+}
+
