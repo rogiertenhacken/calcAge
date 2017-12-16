@@ -1,83 +1,43 @@
-//werkt nog niet, geeft een NaN als birthYear...
+// het werkt!!
 
-var calcAge = function (birthYear, birthMonth, dateDay ) {
+var calcAge = function () {
 // get current year
   var today = new Date();
   var thisYear = today.getFullYear();
   console.log(thisYear);
 
-// declares var for later
-  var zYear = thisYear - birthYear;
-  var xYear2 = thisYear - birthYear -1;
-  console.log(year + ' is var year line 5 \n');
+//get current month:
+    var x = new Date();
+    var z = x.getMonth();
+    var currentMonth = z + 1; // js is 0-based / January = 0
+    console.log(currentMonth + ' var y this month');
 
 //get current day
     var dayofMonth = new Date();
     var thisDay = dayofMonth.getDate();
     console.log(thisDay + " today's date \n");
 
-//get current month:
-  var x = new Date();
-  var z = x.getMonth();
-  var y = z + 1; // js is 0-based / January = 0
-  console.log(y + ' var y');
-
-// get birth year from site
-  var birthYear = document.getElementById("year");
-  console.log(birthYear);
+// get year of birth from site
+  var yearOfBirth = document.getElementById("year").value;
+  console.log(yearOfBirth);
 
 //get birth month from site
-  var birthMonth = document.getElementById("month");
-  console.log(birthMonth);
+  var monthOfBirth =  document.getElementById("month").value;
+    console.log(monthOfBirth);
 
 // get birth day from site
-  var dateDay = document.getElementById("day");
-  console.log(dateDay);
+  var dayOfBirth = document.getElementById("day").value;
+  console.log(dayOfBirth);
 
-   if (thisDay < dateDay && y <= birthMonth) {
-    alert (xYear2 + ' bday is later this year \n');
+// declares var for later
+    var zYear = thisYear - yearOfBirth;
+    var xYear2 = zYear - 1;
+    console.log(zYear + ' is var zYear line 5 \n');
+    console.log(xYear2 + " var xYear2");
+
+   if (thisDay < dayOfBirth && currentMonth <= monthOfBirth) {
+    alert ('on earth for ' + xYear2 + ' years');
   } else {
-    alert (zYear + ' is your age');
+    alert ('ON EARTH FOR ' + zYear + ' YEARS');
   }
 };
-
-
-
-
-
-
-
-// deze versie werkt zonder de getElementByID
-
-var calcAge = function (birthYear) {
-  var today = new Date();
-  var thisYear = today.getFullYear();
-  var year = thisYear - birthYear;
-  var year2 = thisYear - birthYear -1;
-  console.log(year + ' is var year line 5 \n');
-  // this section is for later
-  // get month:
-  /*var x = new Date();
-  var z = x.getMonth();
-  var y = z + 1;
-  console.log(y + ' line 10 var y');*/
-  var thisMonth = 12;
-  var birthMonth = 12; //getElementById later
-  var dayofMonth = new Date();
-var thisDay = dayofMonth.getDate();
-console.log(thisDay + " today's date \n");
-var dateDay = 21; //getElementById later
-console.log(dateDay + ' is a fictional day of the month when born \n');
-
-   if (thisDay < dateDay && thisMonth <= birthMonth) {
-    console.log(year2 + ' bday is later this year \n');
-  } else {
-    console.log(year + ' is your age');
-  } 
-};
-
-console.log(calcAge(1990));
-
-
-// er is ook nog de andere code in het andere .js bestand :)
-
