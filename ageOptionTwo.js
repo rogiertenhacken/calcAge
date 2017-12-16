@@ -1,4 +1,4 @@
-// het werkt!! (alleen nog een alert vervanging zoeken, dat werkt niet op een mobile-device)
+// het werkt!! 
 
 var calcAge = function () {
 // get current year
@@ -25,19 +25,19 @@ var calcAge = function () {
   var monthOfBirth =  document.getElementById("month").value;
     console.log(monthOfBirth);
 
-// get birth day from site
+// get birth day date from site
   var dayOfBirth = document.getElementById("day").value;
   console.log(dayOfBirth);
 
-// declares var for later
+// var to use
     var zYear = thisYear - yearOfBirth;
     var xYear2 = zYear - 1;
     console.log(zYear + ' is var zYear line 5 \n');
     console.log(xYear2 + " var xYear2");
 
    if (thisDay < dayOfBirth && currentMonth <= monthOfBirth) {
-    alert ('ON EARTH FOR ' + xYear2 + ' YEARS');
+     document.getElementById("output").innerHTML = 'ON EARTH FOR ' + xYear2 + ' YEARS';
   } else {
-    alert ('ON EARTH FOR ' + zYear + ' YEARS');
+    document.getElementById("output").innerHTML = 'ON EARTH FOR ' + zYear + ' YEARS';
   }
 };
