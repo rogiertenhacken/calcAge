@@ -1,5 +1,3 @@
-// het werkt!!
-
 var calcAge = function () {
 // get current year
   var today = new Date();
@@ -36,7 +34,7 @@ var calcAge = function () {
     console.log(xYear2 + " var xYear2");
 
    if (thisDay < dayOfBirth && currentMonth <= monthOfBirth) {
-    alert ('on earth for ' + xYear2 + ' years');
+    alert ('ON EARTH FOR ' + xYear2 + ' YEARS');
   } else {
     alert ('ON EARTH FOR ' + zYear + ' YEARS');
   }
