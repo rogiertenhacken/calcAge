@@ -3,6 +3,10 @@
 body {
   margin-top: 65px;
   font-family: 'Roboto Condensed', sans-serif;
+  /* background-image: url("2webArtboard1.svg");
+  background-repeat: no-repeat;
+  background-size: 110vw;
+  */
 }
 
 .btn-primary-spacing {
@@ -46,15 +50,19 @@ h1 {
 
 /* @media */
 
-@media screen and (max-width: 620px) {
+@media (max-width: 767px) {
 h1 {
-  font-size: 21px;
+  font-size: 48px;
   margin-bottom: 10px;
+  color: red;
 }
+
 .btn-primary-spacing {
-  margin-top:18px;
+  margin-top: 18px;
 }
+
 body {
   margin-top: 45px;
 }
+
 }
