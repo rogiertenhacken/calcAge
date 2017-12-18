@@ -4,35 +4,36 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Jura:700|Orbitron:900|Oswald:700|Roboto+Condensed:700" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="calcStyles.css">
 <title>Age Calculator</title>
 </head>
 <body>
   <div class="container-fluid">
     <div class="container">
-      <div class="col-sm-12">
+      <div class="col-12 col-lg-8">
         <div class="row">
-  <div class=".col-md-6 .col-md-offset-3">
+  <div class="col-12 col-lg-8">
     <h1>CALCULATE AGE</h1>
-      <div class="input-group input-group-sm">
+      <div class="input-group input-group-xl">
         <span class="input-group-addon" id="basic-addon1">BIRTHDAY</span>
         <input type="number" pattern="[0-9]*" inputmode="numeric" min="1" max="31" class="form-control" placeholder="day" aria-label="day" aria-describedby="basic-addon1" id="day">
         <input type="number" pattern="[0-9]*" inputmode="numeric" min="1" max="12" class="form-control" placeholder="month" aria-label="month" aria-describedby="basic-addon1" id="month">
         <input type="number" pattern="[0-9]*" inputmode="numeric" class="form-control" placeholder="year" aria-label="year" aria-describedby="basic-addon1" id="year">
-      </div> <!-- row -->
-    </div>
-  </div>
-<div>
-<div class="row custom" >
-  <button type="button" onclick="calcAge();" class="btn btn-dark btn-primary-spacing" id="">GET AGE</button>
-</div> <!-- row -->
-<div class="row">
-<div id="output"></div>
-</div> <!--row-->
-    </div>
       </div>
-    </div> <!-- class="col-sm-12" -->
+    </div> <!-- row -->
   </div>
+<div class="container">
+  <div class="row">
+    <button type="button" onclick="calcAge();" class="btn btn-dark btn-primary-spacing" id="">GET AGE</button>
+  </div>
+<div class="row">
+    <div id="output"></div>
+  </div> <!--row-->
+</div>
+</div>
+</div>
+</div> <!-- class="col-sm-12" -->
+</div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
