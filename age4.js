@@ -18,7 +18,7 @@ const calcAge = () => {
     document.getElementById("output").innerHTML = 'ON EARTH FOR ' + yearsSinceBirth2 + ' YEARS ';
  } else if (monthsSinceBirth === 0){
    document.getElementById("output").innerHTML = 'ON EARTH FOR ' + yearsSinceBirth + ' YEARS';
- } else if (monthsSinceBirth === 1){
+ }else if (monthOfBirth <= currentMonth){
    document.getElementById("output").innerHTML = 'ON EARTH FOR ' + yearsSinceBirth + ' YEARS';
 } else {
    document.getElementById("output").innerHTML = 'ON EARTH FOR ' + yearsSinceBirth2 + ' YEARS';
